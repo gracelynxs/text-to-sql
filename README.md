@@ -7,8 +7,7 @@
 - `generate_queries.py`: Script to generate queries using the trained model
 - `process_output.py`: Script to process model output for evaluation
 - `example.slurm`: Sample SLURM script for job submission on Quest
-- checkpoint-17000.zip: folder containining latest checkpoint 
-- processed_queries: folder containing some final outputs for checkpoints
+- processed_queries: folder containing some final outputs 
 
 ## Setup and Requirements
 
@@ -37,6 +36,6 @@ Process the generated queries for evaluation using [test-suite-sql-eval](https:/
 
 An example SLURM script (`example.slurm`) is provided for submitting jobs to Quest.
 
-## Additional Notes
+## Fine-tuned model
 
-Checkpoint 17000 is approximately 315 epochs. Match accuracy: 54%, execution accuracy: 57%
+Latest fine-tuned model: approximately 315 epochs. Match accuracy: 54%, execution accuracy: 57% - download [here](https://drive.google.com/file/d/1EJujDLZ1YJwdwkKCEcTsQeH5RfLxAw7S/view?usp=sharing)
