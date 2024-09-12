@@ -1,0 +1,6 @@
+pandas==1.4.2
+torch==1.11.0
+sqlite3==3.36.0
+datasets==2.3.2
+transformers==4.19.2
+tqdm==4.64.0
