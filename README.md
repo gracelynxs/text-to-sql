@@ -7,7 +7,7 @@
 - `generate_queries.py`: Script to generate queries using the trained model
 - `process_output.py`: Script to process model output for evaluation
 - `example.slurm`: Sample SLURM script for job submission on Quest
-- 3b-results-100.zip: folder containining checkpoints of fine-tuned models
+- checkpoint-17000.zip: folder containining latest checkpoint 
 - processed_queries: folder containing some final outputs for checkpoints
 
 ## Setup and Requirements
@@ -36,10 +36,6 @@ Process the generated queries for evaluation using [test-suite-sql-eval](https:/
 ### Running on SLURM
 
 An example SLURM script (`example.slurm`) is provided for submitting jobs to Quest.
-
-## Fine-tuned models
-
-Fine-tuned t5-3b models are found in 3b-results-100
 
 ## Additional Notes
 
