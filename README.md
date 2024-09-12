@@ -7,7 +7,7 @@
 - `generate_queries.py`: Script to generate queries using the trained model
 - `process_output.py`: Script to process model output for evaluation
 - `example.slurm`: Sample SLURM script for job submission on Quest
-- 3b-results-100: folder containining checkpoints of fine-tuned models
+- 3b-results-100.zip: folder containining checkpoints of fine-tuned models
 - processed_queries: folder containing some final outputs for checkpoints
 
 ## Setup and Requirements
@@ -43,5 +43,4 @@ Fine-tuned t5-3b models are found in 3b-results-100
 
 ## Additional Notes
 
-Checkpoint 17000 is approximately 315 epochs
-Match accuracy: 54%, execution accuracy: 57%
+Checkpoint 17000 is approximately 315 epochs. Match accuracy: 54%, execution accuracy: 57%
